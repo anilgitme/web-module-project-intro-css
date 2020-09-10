@@ -125,49 +125,67 @@ table {
 
 /* end of reset*/
 
-//css applied by me starts here//
-
-
-
-
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  text-align: center;
+    text-align: center;
+    font-family: chelsea market;
 }
 
 .container header nav a {
-  border: 1px solid lightgray;
-  margin: 0 1rem;
-  padding: 2rem;
-  display: inline-block;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-  color: white;
-  
+    border: 1px solid lightgray;
+    margin: 0 1rem;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: white;
 }
 
 .first-link {
-  background-color : #FF764E;
+    background-color: #FF764E;
 }
 
 .second-link {
-  background-color : #5ED3EB;
+    background-color: #5ED3EB;
 }
 
 .third-link {
-  background-color : #FFCD69;
+    background-color: #FFCD69;
 }
 
-footer nav a{
-  border: 1px solid lightgray;
-  margin: 0 10px;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 10px;
-  color : white;
-  margin-bottom: 20px;
-  text-align: center;
+footer nav a {
+    border: 1px solid lightgray;
+    margin: 0 10px;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    margin: 3rem;
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.first-section {
+    background-color: pink;
+}
+
+.header-container {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
 }
