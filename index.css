@@ -123,7 +123,7 @@ table {
 }
 
 
-/* end of reset*/
+/* end of reset */
 
 html {
     font-size: 62.5%;
@@ -135,11 +135,10 @@ body {
 }
 
 .container header nav a {
-    border: 1px solid lightgray;
-    margin: 0 1rem;
+    border: 1px margin: 0 10px;
     padding: 2rem;
     display: inline-block;
-    border-radius: 1rem;
+    border-radius: 2rem;
     margin-bottom: 2rem;
     color: white;
 }
@@ -157,14 +156,12 @@ body {
 }
 
 footer nav a {
-    border: 1px solid lightgray;
-    margin: 0 10px;
-    padding: 2rem;
+    border: 1px margin: 0 10px;
+    padding: 20px;
     display: inline-block;
-    border-radius: 1rem;
+    border-radius: 2rem;
     color: white;
     margin-bottom: 2rem;
-    text-align: center;
 }
 
 p {
@@ -173,19 +170,57 @@ p {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: bold;
+    display: inline;
 }
 
 .first-section {
-    background-color: pink;
-}
-
-.header-container {
+    background-color: #DDB9A3;
     display: block;
+    padding: 3rem;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
+    align-self: center;
+}
+
+.header-image img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.info {
+    width: 40%;
+    text-align: center;
+    padding-left: 100px;
+    position: relative;
+    left: 300px;
+}
+
+.spaced-out {
+    position: relative;
+    top: 180px;
+}
+
+.header-container {
+    position: relative;
+    top: 80px;
+}
+
+a {
+    box-sizing: border-box;
+    width: 180px;
+    height: 82px;
+    font-size: 27px;
+}
+
+.image-container {
+    padding-top: 200px;
+    background-size: 150px;
 }
