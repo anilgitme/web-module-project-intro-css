@@ -1,0 +1,173 @@
+/*css reset*/
+
+html,
+html body {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Noto Sans';
+}
+
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ :link,
+ :visited {
+    text-decoration: none;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+
+/* The below restores some sensible defaults */
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+a img {
+    border: none;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 60%;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end of reset*/
+
+//css applied by me starts here//
+
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+}
+
+.container header nav a {
+  border: 1px solid lightgray;
+  margin: 0 1rem;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+  
+}
+
+.first-link {
+  background-color : #FF764E;
+}
+
+.second-link {
+  background-color : #5ED3EB;
+}
+
+.third-link {
+  background-color : #FFCD69;
+}
+
+footer nav a{
+  border: 1px solid lightgray;
+  margin: 0 10px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  color : white;
+  margin-bottom: 20px;
+  text-align: center;
+}
