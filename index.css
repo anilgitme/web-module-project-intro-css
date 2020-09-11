@@ -228,3 +228,7 @@ a {
     height: 90%;
     width: 100%;
 }
+
+a:hover {
+    background-color: blue;
+}
