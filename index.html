@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;423&display=swap" rel="stylesheet">
     <!-- Link your CSS stylesheet -->
     <link rel="stylesheet" href="index.css">
 </head>
@@ -10,10 +11,10 @@
 <body>
     <div class="container">
         <header>
-            <nav class="flex">
-                <a href="#" class="first-link">Plan your Visit</a>
-                <a href="#" class="second-link">Learn about the Park</a>
-                <a href="#" class="third-link">Get Involved</a>
+            <nav>
+                <button><a href="#" class="first-link">Plan your Visit</a></button>
+                <button><a href="#" class="second-link">Learn about the Park</a></button>
+                <button><a href="#" class="third-link">Get Involved</a></button>
             </nav>
     </div>
 
@@ -21,8 +22,9 @@
         <div class="header-image">
             <img src="C:\Users\Sarika Ramcharran\Desktop\School\web-module-project-intro-css\assets\header_img.jpg" align="left" />
         </div>
-        <h1>Yosemite Park Guide</h1>
-
+        <div class="title-container">
+            <img alt="Chelsea Market Regular" src="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5XVzl6WlcxcGRHVWdVR0Z5YXlCSGRXbGtaUSwsLjAA/chelsea-market.regular.png" style="width: auto;">
+        </div>
         <p>Come explore California’s beautiful wilderness.</p>
         <p>Always open. Reservations are not available or required to enter the park.</p>
         </header>
@@ -46,14 +48,17 @@
                 <strong>park entrance fee</strong> upon arrival (there's no need to pay it in advance).</p>
         </section>
     </div>
+
+    <div id="image-container">
+
+        <img src="C:\Users\Sarika Ramcharran\Desktop\School\web-module-project-intro-css\assets\footer_img.jpg" height=300px; width=100%; object-fit=cover; object-position=30% 10%;/>
+
+    </div>
     <footer>
-        <div class="image-container">
-            <img src="C:\Users\Sarika Ramcharran\Desktop\School\web-module-project-intro-css\assets\footer_img.jpg" style='height: 20%; width: 100%; object-fit: scale-down' />
-        </div>
-        <nav class="flex">
-            <a href="#" class="first-link">Plan your Visit</a>
-            <a href="#" class="second-link">Learn about the Park</a>
-            <a href="#" class="third-link">Get Involved</a>
+        <nav class="footer-elements">
+            <button><a href="#" class="first-link">Plan your Visit</a></button>
+            <button><a href="#" class="second-link">Learn about the Park</a></button>
+            <button><a href="#" class="third-link">Get Involved</a></button>
         </nav>
     </footer>
 
